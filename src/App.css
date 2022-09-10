@@ -1,0 +1,304 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #6B4DE9;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all {
+  background-color: #fff;
+  height: 85%;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  padding: 10px 0;
+  color: #6B4DE9;
+}
+
+nav > * {
+  padding-right: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav a{
+  position: relative;
+  padding-bottom: 5px;
+  color:#6B4DE9;
+  font-size: 15px;
+}
+nav a:hover{
+  color:#6B4DE9;
+}
+nav a:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background:#6B4DE9;
+  transition: all .3s;
+  transform: scale(0, 1);
+  transform-origin: left bottom;
+}
+nav a::after {
+  transform: scale(0, 1);
+}
+nav a:hover::after {
+  transform: scale(1, 1);
+}
+
+
+a:visited {
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about {
+  text-align: left;
+  width: 50%;
+}
+
+.homeHeader {
+  margin: 0;
+  color: #6B4DE9;
+  font-size: 48px;
+  line-height: 1;
+}
+.homeSubHeader{
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #6B4DE9;
+  font-weight: bold;
+}
+.homeTxt{
+  margin: 40px 0 25px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.projectsBtn {
+  display: inline-block;
+  color: #6B4DE9;
+  font-size: 14px;
+  border: 1px solid #6B4DE9;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+}
+
+/*.contacts {
+  position: absolute;
+  bottom: 60px;
+  right: 40%;
+}*/
+
+.contacts > * {
+  margin: 0 5px;
+  color: #6B4DE9;
+}
+.projects{
+  margin: 20px 0;
+  height: 80%;
+  overflow-y: scroll;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.cards::-webkit-scrollbar {
+    width: 0;
+}
+.cardWrap{
+  display: inline-block;
+  width: 30%;
+  border: 1px solid #d3d2d2;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+
+.projectImg {
+  height: 155px;
+  width: auto;
+  border-bottom: 1px solid #d3d2d2;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #6B4DE9;
+}
+
+.cardText {
+  margin: 5px 0;
+  color: black;
+}
+.cardBtn{
+  display: inline-block;
+  color: #6B4DE9;
+  font-size: 14px;
+  border: 1px solid #6B4DE9;
+  border-radius: 3px;
+  padding: 3px 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+@media all and (max-width: 900px) {
+
+  .all {
+    height: 95%;
+  }
+
+  .home {
+    flex-direction: column-reverse;
+  }
+
+  .about {
+    text-align: center;
+    width: 100%;
+  }
+
+  .homeHeader {
+    font-size: 30px;
+    padding-top: 12px;
+  }
+
+  .homeTxt {
+    margin: 10px 0 20px;
+  }
+
+  .profileImg {
+    height: 230px;
+    width: 230px;
+  }
+
+  .contacts > * {
+    font-size: 14px;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .all {
+    padding: 5px 15px;
+  }
+
+  .cardWrap {
+    width: 65%;
+  }
+
+  @media all and (max-width: 500px) {
+    .cardWrap {
+      width: 80%;
+    }
+  }
+
+  @media all and (max-width: 400px) {
+    .cardWrap {
+      width: 90%;
+    }
+  }
+
+  @media all and (min-width: 650px) {
+    
+    .all {
+      height: 90%;
+    }
+
+    .profileImg {
+      height: 280px;
+      width: 280px;
+    }
+
+    .cards {
+      justify-content: space-between;
+    }
+
+    .cardWrap {
+      width: 48%;
+    }
+  }
+}
+
