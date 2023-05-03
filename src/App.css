@@ -60,6 +60,16 @@ body {
   justify-content: space-between;
   overflow: auto;
 }
+/* hide scrollbar but allow scrolling */
+.all {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+.all::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
 
 nav {
   display: flex;
