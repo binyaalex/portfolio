@@ -6,7 +6,7 @@ const Home = () => {
 			<div className='about'>
 				<h2 className='homeHeader'>Benjamin Alexander</h2>
 				<span className='homeSubHeader'>A Full Stack Web Devoleper</span>
-				<p className="homeTxt">Knowledge with Javascript, React, Node.js, Redux, HTML, CSS, Bootstrap and Github</p>
+				<p className="homeTxt">Knowledge with JavaScript, React, Node.js, Redux, Hooks, ES6, REST APIs, Socket.io, Express, Database, PostgreSQL, Ajax, Axios, JSON, Html5, Css3, Scss, MUI,  Bootstrap, Figma, Adobe XD, WordPress, Git, NPM, Heroku and Netlify.</p>
 				<Link to="/projects" className='projectsBtn'>See My Projects</Link>
 			</div>
 			<div className='imgDiv'>
