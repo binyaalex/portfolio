@@ -5,31 +5,31 @@ const Projects = () => {
 	const projectsArr = [
 		{
 			title: 'Chat App',
-			text: 'Very easy using chat, create by React, Node.js and Socket.io.',
+			text: 'Simple yet powerful chat app using React, Node.js, and Socket.io, enabling users to communicate easily and effectively in real-time.',
 			img: 'chat-app.jpg',
 			link: 'https://github.com/binyaalex/DI_bootcamp/tree/main/finalProject',
 		},
 		{
 			title: `Liar's Dice`,
-			text: 'Nice dice game for two players, using JavaScript.',
+			text: 'Engaging dice game for two players using JavaScript, providing an entertaining and enjoyable gaming experience.',
 			img: 'liars-dice.jpg',
 			link: 'https://github.com/binyaalex/DI_bootcamp/tree/main/hackathon',
 		},
 		{
 			title: 'Memory Game',
-			text: 'Great memory game, using React and fetch api.',
+			text: 'Exceptional memory game using React and Fetch API, allowing users to test their memory skills while enjoying a seamless and user-friendly interface.',
 			img: 'memory-game.jpg',
 			link: 'https://github.com/binyaalex/DI_bootcamp/tree/main/week8/day5/memory-game',
 		},
 		{
 			title: 'Weather App',
-			text: 'Simple weather app, using React and Redux.',
+			text: 'Straightforward weather application using React and Redux, providing users with a reliable and easy-to-use interface for checking the latest weather updates.',
 			img: 'weather.jpg',
 			link: 'https://github.com/binyaalex/DI_bootcamp/tree/main/week10/day2/weather',
 		},
 		{
 			title: 'IMDB',
-			text: 'Movies app for searching details , using React and Redux.',
+			text: 'Movies application using React and Redux, which allowed users to search for and access detailed information about movies with ease and efficiency.',
 			img: 'imdb.jpg',
 			link: 'https://github.com/binyaalex/DI_bootcamp/tree/main/week9/day5/movie',
 		},
