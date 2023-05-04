@@ -44,7 +44,7 @@ const Projects = () => {
 					    <Card.Title className='title'>Wordle Game</Card.Title>
 					    <Card.Text className='cardText'>
 					      Fun words game, using React and Redux.<br/>
-					    	<a href='https://pitsukhim.netlify.app/' target='-blank' className='cardBtn'>See the Game </a>
+					    	<a href='https://pitsukhim.netlify.app/' target='-blank' className='cardBtn'>Let's play </a>
 					    	<a href='https://github.com/binyaalex/DI_bootcamp/tree/main/wordle' target='-blank' className='cardBtn'>Github</a>
 					    </Card.Text>
 					  </Card.Body>
