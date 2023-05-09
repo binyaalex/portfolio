@@ -3,7 +3,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Home = () => {
 	return (
@@ -12,13 +12,15 @@ const Home = () => {
 				<h2 className='homeHeader'>Benjamin Alexander</h2>
 				<span className='homeSubHeader'>A Full Stack Web Devoleper</span>
 				<Accordion 
+					className="accordion"
 					sx={{
 						margin: '5px 0',
 						border: '0',
-						boxShadow: 'none'
-					}}>
+						boxShadow: 'none',
+					}}
+				>
 					<AccordionSummary
-					// expandIcon={<ExpandMoreIcon />}
+					expandIcon={<ExpandMoreIcon />}
 					aria-controls="panel1a-content"
 					id="panel1a-header"
 					>

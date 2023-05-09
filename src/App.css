@@ -246,6 +246,10 @@ a:visited {
   margin-right: 5px;
 }
 
+.accordion {
+  width: 75%;
+}
+
 @media all and (max-width: 900px) {
 
   .all {
@@ -294,6 +298,10 @@ a:visited {
   @media all and (max-width: 500px) {
     .cardWrap {
       width: 80%;
+    }
+    
+    .accordion {
+      width: 100%;
     }
   }
 
